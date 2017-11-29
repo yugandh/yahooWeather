@@ -42,12 +42,11 @@ extension ForecastViewController: UITableViewDataSource {
         
         weather.weatherData {
             DispatchQueue.main.async(execute: {
-               
-                cell.tempHighLabel.text = self.weather.high[indexPath.row]
+               cell.tempHighLabel.text = self.weather.high[indexPath.row]
                 cell.tempLowLabel.text = self.weather.low[indexPath.row]
                 cell.dayLabel.text = self.weather.names[indexPath.row]
                 cell.partlyView.text = self.weather.partly[indexPath.row]
-                cell.sampleImageView.image = UIImage(named:"sun")
+                cell.sampleImageView.image = UIImage(named:"sun") //not getting any images from server
             })
         }
         
