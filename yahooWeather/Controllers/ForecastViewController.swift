@@ -34,7 +34,7 @@ self.dismiss(animated: true, completion: nil)
 
 extension ForecastViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 7
+        return 7 // hard coding for now because making service call in tablecell and not using core data to retrieve count.
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
