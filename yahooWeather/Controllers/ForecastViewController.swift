@@ -26,10 +26,10 @@ class ForecastViewController: UIViewController {
         closeButton.addTarget(self, action: #selector(dismissDaySelectionView), for: .touchUpInside)
         self.view.addSubview(closeButton)
     }
-    @objc func dismissDaySelectionView() {
-self.dismiss(animated: true, completion: nil)
-    }
     
+    @objc func dismissDaySelectionView() {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
 extension ForecastViewController: UITableViewDataSource {
