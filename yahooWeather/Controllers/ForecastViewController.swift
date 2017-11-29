@@ -15,19 +15,9 @@ class ForecastViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.closeDaySelectionViewButton()
     }
     
-    func closeDaySelectionViewButton() {
-        closeButton.frame = CGRect(x:self.view.frame.size.width - 48.0, y:30.0, width: 40.0, height: 40.0)
-        closeButton.layer.cornerRadius = closeButton.bounds.size.width / 2
-        closeButton.setImage(UIImage(named: "close_button")?.withRenderingMode(.alwaysOriginal), for: .normal)
-        closeButton.setImage(UIImage(named: "close_button-Tap")?.withRenderingMode(.alwaysOriginal), for: .highlighted)
-        closeButton.addTarget(self, action: #selector(dismissDaySelectionView), for: .touchUpInside)
-        self.view.addSubview(closeButton)
-    }
-    
-    @objc func dismissDaySelectionView() {
+    @IBAction func closeButtonTapped(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
 }

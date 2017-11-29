@@ -142,6 +142,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSN-MW-Wf0">
+                                <rect key="frame" x="320" y="33" width="39" height="30"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="0G5-Sv-nim" eventType="touchUpInside" id="xja-MT-n89"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -149,8 +158,10 @@
                             <constraint firstItem="aju-L6-Nvd" firstAttribute="trailing" secondItem="0GK-L2-UPb" secondAttribute="trailing" id="88u-2b-Sl8"/>
                             <constraint firstItem="0GK-L2-UPb" firstAttribute="leading" secondItem="9Oz-pb-WYP" secondAttribute="leading" id="8sO-aM-3rz"/>
                             <constraint firstItem="0GK-L2-UPb" firstAttribute="top" secondItem="aju-L6-Nvd" secondAttribute="bottom" id="RUA-kQ-XOF"/>
+                            <constraint firstItem="TSN-MW-Wf0" firstAttribute="trailing" secondItem="6HA-Pt-Oj0" secondAttribute="trailingMargin" id="Tih-cl-pcX"/>
                             <constraint firstItem="0GK-L2-UPb" firstAttribute="bottom" secondItem="9Oz-pb-WYP" secondAttribute="bottom" id="ZIO-R6-IWT"/>
                             <constraint firstItem="0GK-L2-UPb" firstAttribute="trailing" secondItem="9Oz-pb-WYP" secondAttribute="trailing" id="bsR-cB-5da"/>
+                            <constraint firstItem="TSN-MW-Wf0" firstAttribute="centerY" secondItem="aju-L6-Nvd" secondAttribute="centerY" id="geI-as-vMF"/>
                             <constraint firstItem="aju-L6-Nvd" firstAttribute="top" secondItem="9Oz-pb-WYP" secondAttribute="top" id="vfc-uA-Rxm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Oz-pb-WYP"/>
