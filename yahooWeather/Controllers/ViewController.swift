@@ -23,7 +23,7 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! weatherTableViewCell
-        
+        cell.selectionStyle = UITableViewCellSelectionStyle.none
         weather.weatherData {
             DispatchQueue.main.async(execute: {
                 cell.titleLabel.text = self.weather.titleLabel

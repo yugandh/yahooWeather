@@ -14,6 +14,8 @@ class YahooWeaherService {
     var names = [String]()
     var high = [String]()
     var low = [String]()
+    var partly = [String]()
+
     var titleLabel: String {
         return title ?? "0"
     }
@@ -77,6 +79,12 @@ class YahooWeaherService {
                 for day in forecast {
                     if let name = day["low"] as? String {
                         self.low.append(name)
+                    }
+                }
+                
+                for day in forecast {
+                    if let name = day["text"] as? String {
+                        self.partly.append(name)
                     }
                 }
                 
