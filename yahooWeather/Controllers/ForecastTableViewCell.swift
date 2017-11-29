@@ -14,4 +14,5 @@ class ForecastTableViewCell: UITableViewCell {
     @IBOutlet weak var tempHighLabel: UILabel!
     @IBOutlet weak var tempLowLabel: UILabel!
     @IBOutlet weak var partlyView: UILabel!
+    @IBOutlet weak var sampleImageView: UIImageView!
 }

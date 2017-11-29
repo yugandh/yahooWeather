@@ -47,7 +47,7 @@ extension ForecastViewController: UITableViewDataSource {
                 cell.tempLowLabel.text = self.weather.low[indexPath.row]
                 cell.dayLabel.text = self.weather.names[indexPath.row]
                 cell.partlyView.text = self.weather.partly[indexPath.row]
-
+                cell.sampleImageView.image = UIImage(named:"sun")
             })
         }
         

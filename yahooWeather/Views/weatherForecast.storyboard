@@ -86,6 +86,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EeZ-mH-6JQ">
+                                                    <rect key="frame" x="247" y="111" width="113" height="77"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="77" id="9wS-Uj-pJW"/>
+                                                        <constraint firstAttribute="width" constant="113" id="khk-bh-tUx"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="wne-eK-yeQ" firstAttribute="leading" secondItem="AuT-F1-qvI" secondAttribute="leadingMargin" constant="16" id="1gG-mD-7d0"/>
@@ -96,12 +103,14 @@
                                                 <constraint firstItem="TsU-H0-bei" firstAttribute="leading" secondItem="VCA-s7-ZaH" secondAttribute="leading" id="JQz-yT-t89"/>
                                                 <constraint firstItem="6hl-Ih-0O0" firstAttribute="leading" secondItem="AuT-F1-qvI" secondAttribute="leadingMargin" constant="14" id="Twi-RO-i20"/>
                                                 <constraint firstItem="TsU-H0-bei" firstAttribute="leading" secondItem="6hl-Ih-0O0" secondAttribute="trailing" constant="10" id="Ur6-iT-J7K"/>
+                                                <constraint firstItem="EeZ-mH-6JQ" firstAttribute="trailing" secondItem="AuT-F1-qvI" secondAttribute="trailingMargin" id="X0C-hJ-LJE"/>
                                                 <constraint firstItem="wne-eK-yeQ" firstAttribute="top" secondItem="AuT-F1-qvI" secondAttribute="topMargin" id="be4-30-2GS"/>
                                                 <constraint firstItem="FYH-ka-pjm" firstAttribute="leading" secondItem="AuT-F1-qvI" secondAttribute="leadingMargin" constant="65" id="ghN-qc-SLI"/>
                                                 <constraint firstItem="VCA-s7-ZaH" firstAttribute="top" secondItem="TsU-H0-bei" secondAttribute="bottom" constant="22" id="h4P-gs-drc"/>
                                                 <constraint firstItem="6hl-Ih-0O0" firstAttribute="top" secondItem="CTa-nM-UKk" secondAttribute="bottom" constant="35" id="hzk-Pd-QNQ"/>
                                                 <constraint firstItem="EWe-Rg-pvz" firstAttribute="centerY" secondItem="VCA-s7-ZaH" secondAttribute="centerY" id="jmB-Na-iGb"/>
                                                 <constraint firstItem="CTa-nM-UKk" firstAttribute="top" secondItem="wne-eK-yeQ" secondAttribute="bottom" constant="16" id="kpy-Yn-4CI"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="EeZ-mH-6JQ" secondAttribute="bottom" constant="1" id="nX7-by-dOM"/>
                                                 <constraint firstItem="VCA-s7-ZaH" firstAttribute="leading" secondItem="EWe-Rg-pvz" secondAttribute="trailing" constant="15" id="pin-14-1MQ"/>
                                                 <constraint firstItem="wne-eK-yeQ" firstAttribute="baseline" secondItem="FYH-ka-pjm" secondAttribute="baseline" id="t7H-bx-7Qs"/>
                                                 <constraint firstItem="EWe-Rg-pvz" firstAttribute="bottom" secondItem="AuT-F1-qvI" secondAttribute="bottomMargin" id="tTC-29-oK8"/>
@@ -112,6 +121,7 @@
                                         <connections>
                                             <outlet property="dayLabel" destination="FYH-ka-pjm" id="34q-in-TK6"/>
                                             <outlet property="partlyView" destination="CTa-nM-UKk" id="u1q-lw-Vke"/>
+                                            <outlet property="sampleImageView" destination="EeZ-mH-6JQ" id="kN5-7x-LcC"/>
                                             <outlet property="tempHighLabel" destination="TsU-H0-bei" id="jUA-KL-Zpg"/>
                                             <outlet property="tempLowLabel" destination="VCA-s7-ZaH" id="c62-vP-kGi"/>
                                         </connections>

@@ -21,6 +21,7 @@
 		849252F81FCEF81300FC3E5F /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849252F71FCEF81300FC3E5F /* ForecastTableViewCell.swift */; };
 		849252FA1FCEFA4800FC3E5F /* weatherForecast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849252F91FCEFA4800FC3E5F /* weatherForecast.storyboard */; };
 		849252FC1FCEFFB100FC3E5F /* close_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849252FB1FCEFFB100FC3E5F /* close_button@2x.png */; };
+		849253011FCF2E1100FC3E5F /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 849253001FCF2E1100FC3E5F /* sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		849252F71FCEF81300FC3E5F /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 		849252F91FCEFA4800FC3E5F /* weatherForecast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = weatherForecast.storyboard; sourceTree = "<group>"; };
 		849252FB1FCEFFB100FC3E5F /* close_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_button@2x.png"; sourceTree = "<group>"; };
+		849253001FCF2E1100FC3E5F /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				849252C01FCE5DBC00FC3E5F /* AppDelegate.swift */,
 				849252C41FCE5DBC00FC3E5F /* Main.storyboard */,
 				849252FB1FCEFFB100FC3E5F /* close_button@2x.png */,
+				849253001FCF2E1100FC3E5F /* sun.png */,
 				849252C71FCE5DBC00FC3E5F /* Assets.xcassets */,
 				849252C91FCE5DBC00FC3E5F /* LaunchScreen.storyboard */,
 				849252CC1FCE5DBC00FC3E5F /* Info.plist */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849252EF1FCE650A00FC3E5F /* weatherTableViewCell.xib in Resources */,
+				849253011FCF2E1100FC3E5F /* sun.png in Resources */,
 				849252CB1FCE5DBC00FC3E5F /* LaunchScreen.storyboard in Resources */,
 				849252C81FCE5DBC00FC3E5F /* Assets.xcassets in Resources */,
 				849252FC1FCEFFB100FC3E5F /* close_button@2x.png in Resources */,
